@@ -19,7 +19,7 @@ game:GetService("Players").LocalPlayer.Idled:Connect(function()
 end)
 
 -- Hitbox Expansion (Invisible and non-colliding)
-_G.HeadSize = 10
+_G.HeadSize = 17
 _G.Disabled = true
 
 game:GetService("RunService").RenderStepped:Connect(function()
